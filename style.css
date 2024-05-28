@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.top-bar{
+    text-align: center;
+    color:#ffffff;
+    background-color: black;
+}
+.top-bar a{
+    color: #ffffff;
+}
+.hero-section img{
+    padding-right:-1500px;
+}
+.hero-section{
+    background-image: url(./images/Rectangle\ 2.png);
+    height: 663px;
+    width: 100%;
+
+}
+.hero-section h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 90px; 
+    
+    }
+    .hero-section p{
+
+    }
+    
+    .hero-section button{
+        padding: 7px 40px;
+        border-radius: 25px;
+        color: #ffffff;
+        background-color: black;
+    }
+    .navbar .row{
+        display: flex;
+    }
