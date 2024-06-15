@@ -38,11 +38,11 @@ color:black;
 .new-arrivals button{
     background-color: #ffffff;
     border:1px solid #9A9A9A;
-    margin:35px;
+    
     height:55px;
     width: 165px;
     border-radius: 30px;
-    margin-left: 587px;
+
 
 }
 .Top-selling .fa-star{
@@ -52,24 +52,12 @@ color:black;
 .Top-selling button{
     background-color: #ffffff;
     border:1px solid #9A9A9A;
-    margin:35px;
     height:55px;
     width: 165px;
     border-radius: 30px;
-    margin-left: 587px;
+    
 }
-.cards .row{
-    margin-left: 3px;
-}
-.cards .col-4{
-    border: 1px solid #9A9A9A;
-padding: 10px;
-    text-align: start;
-    border-radius: 25px;
 
-
-
-}
 .cards .fa-star{
     color:yellow;
 }
@@ -83,6 +71,7 @@ padding: 30px;
     border:  25px;
     margin: 50px;
     border-radius: 25px;
+    margin-top:50px;
 margin-bottom: -66px;
 position: relative;
 z-index: 9999;
@@ -140,4 +129,166 @@ padding-bottom: 15px;
     
 
 }
+.nav ol li{
+color: black;
+}
+.reviews .review{
+    border:1px solid #d1d0d0;
+    border-radius: 25px;
+    padding: 25px;
+    height: 270px;
 
+}
+.reviews .fa-circle-check{
+    color:#01AB31;
+}
+.review p{
+    color:gray;
+
+}
+.review h4{
+    color:black;
+    margin: 15px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.review h5{
+    color:gray;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container .fa-star{
+    color:#FFC633;
+
+}
+.b-one{
+    font-weight: bold ;
+    border:1px solid #9A9A9A;
+    background-color: white;
+    width:200px;
+    padding:12px;
+    border-radius: 25px;
+
+    
+}
+
+.breadcrumb a{
+    color:gray;
+}
+.grapic-shirt{
+    margin-bottom: 30px;
+}
+.color-selector{
+    display: flex;
+}
+ .color-selector .div-one{
+    background-color:#4F4631;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+.color-selector .div-two{
+    background-color:#314F4A;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+.color-selector .div-three{
+    background-color:#31344F;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+.chose-size{
+    display: flex;
+
+}
+.chose-size .size-one,
+.chose-size .size-two,
+.chose-size .size-three,
+.chose-size .size-four
+{
+    border:1px solid #d1d0d0;
+    padding: 0px 30px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-color:#F0F0F0;
+    margin: 5px;
+    
+}
+.chose-size .size-three{
+    background-color: black;
+    color: #ffffff;
+}
+.color-selector .fa-check{
+margin: 13px;
+}
+.color-selector{
+    gap:10px
+}
+#b-one{
+    padding:8px 30px;
+    border-radius: 25px;
+    margin-top: 10px;
+    border:1px solid #d1d0d0;
+}
+#b-two{
+    color:white;
+    background-color: black;
+    padding:8px 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    border:1px solid #d1d0d0;
+}
+.reviews h4{
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.reviews span{
+    font-weight: 500;
+    color:#9A9A9A;
+}
+.casual-one p{
+    text-align: end;
+}
+
+.casual-one i, h5, img, b,
+.casual-two i, h5, img, b,
+.casual-three i, h5, img, b{
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+#bt-one{
+    color:#ffffff;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+    
+}
+#bt-two{
+    color:#ffffff;
+    background-color: black; 
+    padding: 12px 100px;
+    margin-top: 20px;
+    border-radius: 25px;
+
+}
+.cart input{
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.cart .col-4{
+    border:1px solid #d1d0d0;
+    height: 450px;
+    padding:20px;
+    border-radius: 30px;
+}
+.cart .col-5{
+    display:none;
+
+}
