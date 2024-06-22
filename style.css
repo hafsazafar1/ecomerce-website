@@ -69,7 +69,6 @@ padding: 30px;
     background-color: black;
     padding: 50px;
     border:  25px;
-    margin: 50px;
     border-radius: 25px;
     margin-top:50px;
 margin-bottom: -66px;
@@ -202,7 +201,9 @@ color: black;
 }
 .chose-size{
     display: flex;
-
+align-items: center;
+flex-wrap: wrap;
+gap:5px;
 }
 .chose-size .size-one,
 .chose-size .size-two,
@@ -210,12 +211,11 @@ color: black;
 .chose-size .size-four
 {
     border:1px solid #d1d0d0;
-    padding: 0px 30px;
-    padding-top: 10px;
+    padding:  10px 25px;
     text-align: center;
     border-radius: 30px;
     background-color:#F0F0F0;
-    margin: 5px;
+
     
 }
 .chose-size .size-three{
